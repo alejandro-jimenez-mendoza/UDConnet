@@ -1,0 +1,32 @@
+:root {
+    --udc-cafe: #6F4E37;       /* Café institucional */
+    --udc-cafe-oscuro: #4A3425; /* Para efectos hover */
+    --udc-amarillo: #F39C12;   /* Amarillo para resaltar */
+    --udc-gris-fondo: #FDFBF8;  /* Un crema muy suave que combina con café */
+}
+
+body { background-color: var(--udc-gris-fondo) !important; }
+
+/* Navbar: Café institucional con borde amarillo */
+.navbar {
+    background-color: var(--udc-cafe) !important;
+    border-bottom: 5px solid var(--udc-amarillo) !important;
+}
+
+/* Botones: Mantenemos el amarillo como acento para que resalte mucho */
+.btn-primary {
+    background-color: var(--udc-amarillo) !important;
+    border-color: var(--udc-amarillo) !important;
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.btn-primary:hover { 
+    background-color: #d68910 !important; 
+}
+
+/* Títulos y textos: Usamos el café para mantener la identidad */
+h1, h2, h3, .text-primary { color: var(--udc-cafe) !important; }
+
+/* Tarjetas: Borde café */
+.card { border-top: 4px solid var(--udc-cafe) !important; }
